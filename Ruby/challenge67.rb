@@ -1,0 +1,4 @@
+# Convert the hexadecimal number to decimal
+File.open(ARGV[0]).each_line do |line|
+    puts line.hex
+end
